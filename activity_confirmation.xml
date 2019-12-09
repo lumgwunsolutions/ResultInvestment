@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87b14d"
+    tools:context=".ConfirmationActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:fontFamily="monospace"
+        android:text="Please note that this is an Investment
+application for people that are 18 years of age and above, however, an
+Adult Investor can register a Minor."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:buttonTint="@android:color/black"
+        android:checked="false"
+        android:fontFamily="monospace"
+        android:text="I am 18 years and above, or have an Adult to register me."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorLink="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text1"
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="26dp"
+        android:fontFamily="monospace"
+        android:text="Please confirm below if you're 18 years old."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/confirmbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape_oval1"
+        android:fontFamily="monospace"
+        android:text="Continue"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text2"
+        android:layout_marginBottom="20dp"
+        android:text="Result Investment Nigeria Ltd® is an Investment
+company. By using this application you give the company permission to
+use your personal data. Proceeding into this application as an
+underage Investor, will have no effect on the company if anything goes
+wrong from your end.   "
+        android:textAlignment="center"
+        android:textSize="10sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

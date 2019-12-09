@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_rectangle1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <br.liveo.ui.RoundedImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/user_pix"
+        android:src="@drawable/ic_rina1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_write_up"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="5dp"
+        android:rotation="0"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@drawable/shape_rect2"
+        android:layout_marginBottom="5dp"
+        android:text="Take Action"
+        android:textSize="35sp"
+        android:textColor="#ffff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_login"
+        android:background=""
+        android:gravity="center"
+        android:text="Log In"
+        android:textStyle="bold"
+        android:onClick="login"
+        android:layout_marginTop="16dp"
+        style="?android:textAppearanceSmall"
+        android:textSize="35sp"
+        android:textColor="#cccccc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_or_signup"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:gravity="center"
+        android:rotation="0"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@drawable/shape_rect2"
+        android:layout_marginBottom="5dp"
+        android:text="or"
+        android:textSize="35sp"
+        android:textColor="#ffff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up"
+        android:background=""
+        android:text="Sign Up"
+        android:gravity="bottom"
+        android:textStyle="bold"
+        android:onClick="signup"
+        android:layout_marginTop="16dp"
+        style="?android:textAppearanceSmall"
+        android:textSize="35sp"
+        android:textColor="#cccccc" />
+
+</LinearLayout>

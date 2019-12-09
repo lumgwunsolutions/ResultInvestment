@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:clickable="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/activity_vertical_margin"
+    app:cardElevation="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RINLA Admin Dashboard"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ReturnsLogo"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable_shape_rect1"
+        android:id="@+id/linear_admin"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <Button
+            android:id="@+id/admin_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startAdminTab"
+            android:text="RINLA Admin Tab" />
+        <Button
+            android:id="@+id/pin_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="pinCreation"
+            android:text="Pin Creation Interface" />
+
+
+        <Button
+            android:id="@+id/btn_investors1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:onClick="startInvestorsList"
+            android:text="RINLA Investors Tab" />
+        <Button
+            android:id="@+id/btn_investors_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:onClick="editInvestorsInfo"
+            android:text="Edit Investor's Info." />
+        <Button
+            android:id="@+id/btn_investors3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:onClick="startInvestorsPackage"
+            android:text="open Investment Package List" />
+        <Button
+            android:id="@+id/btn_investors4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:onClick="startInvestorsTab"
+            android:text="Go to Investors' Tab" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

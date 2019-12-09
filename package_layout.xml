@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:title="@string/app_name"
+    android:textAlignment="center"
+    android:background="@drawable/shape_rect2"
+    android:layout_height="match_parent"
+    android:textStyle="bold">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_package"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:padding="20dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar_package"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:visibility="invisible"
+        android:max="100"
+        android:background="@drawable/shape_rect1"
+        android:indeterminate="true"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="50"
+        android:progressDrawable="@style/RtlOverlay.Widget.AppCompat.Search.DropDown.Query"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tittle1"
+        android:textAlignment="center"
+        android:gravity="top"
+        android:padding="5dp"
+        android:rotation="0"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:background="@drawable/shape_rect2"
+        android:layout_marginBottom="5dp"
+        android:text="Package Data"
+        android:textSize="35sp"
+        android:textColor=""
+        android:contentDescription="Packkage Data"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/ripples"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@drawable/shape_rect2"
+        android:padding="5dp"
+        android:id="@+id/package_data1"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:entries="@array/package"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/package"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor=""
+                android:layout_width="wrap_content"
+                android:rotation="0"/>
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotation="0"
+                android:maxLines="1"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/shape_oval2"
+                android:id="@+id/amountInvested"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/mye0"
+                android:textAlignment="center"
+                android:fontFamily="Ariel"
+                android:inputType="textCapWords"
+                android:text="Investment Amount"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:id="@+id/p2"
+            android:layout_below="@id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:entries="@array/interestRate"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/packag2"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor=""
+                android:layout_width="wrap_content"
+                android:rotation="0"/>
+
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotation="0"
+                android:maxLines="1"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/shape_oval2"
+                android:id="@+id/circle"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/mye0"
+                android:textAlignment="center"
+                android:fontFamily="Ariel"
+                android:inputType="textCapWords"
+                android:text="Circle"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:id="@+id/p3"
+            android:layout_below="@id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:entries="@array/currency"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/currency"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor=""
+                android:layout_width="wrap_content"
+                android:rotation="0"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rotation="0"
+                android:maxLines="1"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/shape_oval2"
+                android:id="@+id/date_of_completion"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/mye0"
+                android:textAlignment="center"
+                android:fontFamily="Ariel"
+                android:inputType="textCapWords"
+                android:text="Date of Completion"/>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:id="@+id/p4"
+            android:layout_below="@id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:entries="@array/remarks"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/remarks"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor=""
+                android:layout_width="wrap_content"
+                android:rotation="0"/>
+            <Spinner
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:entries="@array/office"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/office"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textColor=""
+                android:layout_width="wrap_content"
+                android:rotation="0"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:id="@+id/p5"
+            android:layout_below="@id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.inputmethodservice.ExtractEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:background="@drawable/shape_rectangle"
+                android:layout_marginBottom="3dp"
+                android:textSize="25sp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="Ariel"
+                android:textAlignment="center"
+                android:id="@+id/others"
+                android:inputType="text"
+                android:text="Others" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <Button
+            android:id="@+id/submit_package"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/p5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/rounded_shapebtn"
+            android:text="Submit Investment Package Details"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RelativeLayout>
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>
