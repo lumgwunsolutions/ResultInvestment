@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+    </array>
+    <string-array name="state">
+        <item>Abia</item><item>Adamawa</item><item>Akwa Ibom</item>
+        <item>Anambra</item><item>Bauchi</item><item>Bayelsa</item>
+        <item>Benue</item><item>Borno</item><item>Cross River</item>
+        <item>Delta</item><item>Ebonyi</item><item>Edo</item>
+        <item>Ekiti</item><item>Enugu</item><item>Gombe</item>
+        <item>Imo</item><item>Jigawa</item><item>Kaduna</item>
+        <item>Kano</item><item>Katsina</item><item>Kebbi</item>
+        <item>Kogi</item><item>Kwara</item><item>Lagos</item>
+        <item>Nasarawa</item><item>Niger</item><item>Ogun</item><item>Ondo</item><item>Osun</item><item>Oyo</item><item>Plateau</item><item>Rivers</item><item>Sokoto</item>
+        <item>Taraba</item><item>Yobe</item>
+        <item>Zamfara</item>
+
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item><item>Female</item>
+
+    </string-array>
+
+
+    <string-array name="rivers_state_lgas">
+        <item>Abua–Odual</item><item>Ahoada East </item>
+        <item>Ahoada West </item><item>Akuku-Toru</item><item>Andoni </item><item>Asari-Toru </item><item>Bonny</item><item>Degema </item><item>Eleme </item><item>Emohua</item>
+        <item>Etche </item><item>Gokana </item><item>Ikwerre</item>
+        <item>Khana </item><item>Obio-Akpor </item><item>Ogba–Egbema–Ndoni</item><item>Ogu–Bolo </item><item>Okrika </item><item>Omuma</item><item>Opobo–Nkoro </item>
+        <item>Oyigbo </item><item>Port Harcourt City</item><item>Tai </item><item>Gokana </item>
+
+    </string-array>
+    <string-array name="state">
+        <item>Abia</item><item>Adamawa</item><item>Akwa Ibom</item>
+        <item>Anambra</item><item>Bauchi</item><item>Bayelsa</item>
+        <item>Benue</item><item>Borno</item><item>Cross River</item>
+        <item>Delta</item><item>Ebonyi</item><item>Edo</item>
+        <item>Ekiti</item><item>Enugu</item><item>Gombe</item>
+        <item>Imo</item><item>Jigawa</item><item>Kaduna</item>
+        <item>Kano</item><item>Katsina</item><item>Kebbi</item>
+        <item>Kogi</item><item>Kwara</item><item>Lagos</item>
+        <item>Nasarawa</item><item>Niger</item><item>Ogun</item><item>Ondo</item><item>Osun</item><item>Oyo</item><item>Plateau</item><item>Rivers</item><item>Sokoto</item>
+        <item>Taraba</item><item>Yobe</item>
+        <item>Zamfara</item>
+
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item><item>Female</item>
+    </string-array>
+    <string-array name="type">
+        <item>Basic</item><item>Standard</item>
+        <item>Premium</item><item>Custom</item>
+
+    </string-array>
+
+    <string-array name="currency">
+        <item>Naira</item><item>Pounds</item>
+        <item>Cidi</item><item>USD</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="office">
+        <item>Port Harcourt</item><item>UAE> Ras Al Khaimah </item>
+        <item>Abuja</item><item>Ghana</item>
+        <item>Canada</item><item>Kenya</item>
+        <item>Mauritius</item>
+        <item>Luxembourg</item>
+        <item>United Kingdom</item>
+        <item>Australia</item>
+        <item>Luxembourg</item>
+        <item>Aba</item>
+        <item>Ota</item>
+        <item>Lagos</item><item>Onitsha</item>
+
+    </string-array>
+    <string-array name="remarks">
+        <item>For School Fee</item><item>For Rent </item>
+        <item>For Landed Property</item><item>For Vacation</item>
+        <item>For Anniversary</item><item>For Marriage</item>
+        <item>For Further Studies</item>
+        <item>For Charity</item><item>For Debt Financing</item>
+        <item>For Others</item>
+
+
+    </string-array>
+
+
+
+
+
+</resources>
